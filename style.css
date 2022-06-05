@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.header{
+    padding: 10px 0;
+}
+.logo{
+    height: 150px;
+   
+}
+.logo a img{
+    overflow: hidden;
+    align-items: center;
+}
+.nav li a{
+    color: #1f1f1f;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    margin: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav li a:hover{
+    opacity: 0.65;
+}
+.nav li:hover{
+    opacity: 0.65;
+}
+.main{
+    margin: 0 40px;
+}
+.section-1{
+    position: relative;
+}
+.banner-1{
+    height: 800px;
+    background: url(banner-01.jpg);
+    background-size: 100%;
+    background-position: center bottom;
+}
+.banner-content{ 
+    color: rgb(2, 37, 2);
+    letter-spacing: 20px; 
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 300px;
+    
+}
+.banner-title {
+    text-align: center !important;
+}
+.banner-button {
+    text-align: center;;
+}   
+.nut-buy{
+    padding: 8px 15px;
+    border: 2px solid rgb(2, 37, 2) ;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1f1f1f;
+    letter-spacing: 10px;
+}
+.nut-buy:hover{
+    background-color: #6161615a;
+}
+.banner-content h1{
+    margin: 10px;
+    font-size: 40px;
+}
+/* section-1  */
+.sec-2{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.left{
+    border: 3px solid rgba(2, 37, 2, 0.164)  ;
+    padding: 40px 20px;
+    height: 300px; 
+}
+.left h3{
+    color: #616161;
+}
+.left h2{
+    margin: 20px 0;
+}
+.left p{
+    font-size: 11px;
+}
+.box{
+    height: 300px;
+    width: 500px;
+    background-color: rgba(2, 37, 2, 0.164); 
+    z-index: 10;
+    margin-left: 10px;
+    position: relative;
+}
+.hinh{
+    overflow: hidden;
+    position: absolute;
+    left: 8px;
+    width: 100%;
+    height: 100%;
+}
+.hinh img:hover{
+    opacity: 0.65;
+}
+.left:hover{
+    background-color: #6161616d;
+}
+ /* section-2  */
+
+.section-3{
+    padding: 50px 0;
+    
+}
+.sec-3{
+    height: 400px;
+    background: url(banner-03.jpg);
+    background-size: cover;
+    background-position:  center;
+}
+.content-3{
+    width: 600px;
+}
+.nut-contact{
+    padding: 8px 15px;
+    background-color: rgb(2, 37, 2);
+    color: white;
+    margin-top: 20px;
+}
+.nut-contact:hover{
+    opacity: 0.65;
+}
+.nut-contact a{
+    color: white;
+    text-decoration: none;
+}
+.content-3 p{
+    font-size: 12px;
+}
+.content-3 h1{
+    padding: 10px 0;
+    color: rgb(2, 37, 2);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+/* section-3 */
+.section-4{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.title{
+    padding: 50px 0;
+}
+.new-pr{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    width: 70px;
+    border-top: 2px solid rgb(2, 37, 2) ;
+}
+.button{
+    display: flex;
+}
+.button img:hover{
+    background-color: #616161;
+}
+.box-4{
+    width: 250px;
+    background-color: #e4e4e45a;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-4 img{
+    height: 100%;
+    visibility: initial;
+}
+.noi-dung{
+    width: 250px;
+    border-top: 2px solid  rgba(2, 37, 2, 0.277);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.noi-dung p{
+    color: #616161;
+    font-size: 11px;
+}
+.noi-dung span{
+    font-weight: bold;
+    color: #1f1f1f;
+}
+.box-4:hover{
+    background-color: #ffffff;
+}
+/* section-4 */
+.section-5{
+    padding: 50px 0;
+    height: 600px;
+}
+.section-5 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    opacity: 0.65;
+}
+.section-5 span{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    padding-top: 400px;
+}
+.section-5 video:hover{
+    opacity: 1;
+    transition: 0.2s;
+}
+/* section-5 */
+.footer{
+    background-color: #1f1f1f;
+}
+.top{
+ padding: 30px 0;   
+}
+.mot{
+    padding: 0 40px;
+}
+.top h3{
+    color: white;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.top p{
+    color: rgb(237, 236, 236);
+    font-size: 11px;
+    line-height: 150%;
+}
+.email input{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #d7d7d7;
+    margin: 10px 0;
+    font-size: 16px;
+    z-index: 1;
+}
+.top a{
+    text-decoration: none;
+}
+.top h3:hover{
+    text-decoration: underline;
+}
+
+.end{
+    padding: 10px 0;
+    background-color: #1F1F1F;
+    display: flex;
+    border-top: 1px solid #d7d7d7 ;
+}
+.end p{
+    color: white;
+    font-size: 14px;
+}
+
+
